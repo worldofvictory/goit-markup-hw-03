@@ -2,6 +2,7 @@
     --first-font: #FFFFFF;
     --h2-font: #2E2F42;
     --color-adress: #434455;
+    --buttcol: #e7e9fc;
     
 }
 
@@ -319,7 +320,9 @@ font-weight: 400;
         margin: 0 auto;
  }
 
- .button-group {}
+ .button-group {
+    padding: 96px 0 120px 0;
+ }
 
  .button-menu {
     display: flex;
@@ -327,6 +330,8 @@ font-weight: 400;
        margin: 0 auto;
         margin-bottom: 72px; 
         padding: 12px 24px;
+        justify-content: center;
+        gap: 24px;
  }
 
  .button-items {
@@ -352,22 +357,29 @@ background-color:#F4F4FD;
         cursor: pointer;
     color: #4D5AE5;
     background-color: #F4F4FD;
+    padding: 12px 24px;
+    border: 1px solid var(--buttcol);
+    border-radius: 4px;
  }
  
 .button-portfolio:hover {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 .button-portfolio:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
  .menu {
     display: flex;
     gap: 24px;
     margin-bottom: 120px;
-
+    flex-wrap: wrap;
+    row-gap: 48px;
  }
+
 
  .prima-riga {
     background: var(--first-font);
