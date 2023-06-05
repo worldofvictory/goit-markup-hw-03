@@ -381,10 +381,9 @@ background-color:#F4F4FD;
  }
 
 
- .prima-riga {
-    background: var(--first-font);
-    width: calc((100% - 48px) / 3);
-    margin-bottom: 48px;
+ .appc {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 
 .seconda-riga {
@@ -421,6 +420,7 @@ font-weight: 500;
     letter-spacing: 0.02em;
  color: #2E2F42;
  padding: 32px 54px 8px 16px;
+margin-bottom: 8px;
  
 }
  
