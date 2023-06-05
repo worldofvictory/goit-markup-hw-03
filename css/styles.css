@@ -442,10 +442,12 @@ font-weight: 500;
 
          .footer-link .foot {
                 color: #F4F4FD;
-                display: inline-block;
+                
          }
     
-         .link {}
+         .link {
+            display: inline-block;
+         }
     
          .footer-describle {
                 font-style: normal;
