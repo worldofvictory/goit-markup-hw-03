@@ -230,7 +230,7 @@ position: absolute;
         }
 
  .doing-menu {
-    display:flex;
+    display: flex;
     gap: 24px;
     margin-bottom: 120px;
     
@@ -240,7 +240,10 @@ position: absolute;
     width: calc((100% - 48px) / 3);
     }
 
- 
+ .doing-img { 
+    display: block;
+    margin-top: 72px;
+ }
    
     
  
@@ -273,7 +276,9 @@ position: absolute;
     background-color: var(--first-font);
  }
 
- .team-img {}
+ .team-img {
+    display: block;
+ }
 
  .team-name {
 font-weight: 500;
@@ -366,10 +371,21 @@ background-color:#F4F4FD;
     width: calc((100% - 48px) / 3);
 }
 
-
-
-
- .img-menu {}
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+ .img-menu {
+    display: block;
+ }
 
  .titl {
 font-weight: 500;
