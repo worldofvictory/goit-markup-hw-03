@@ -425,6 +425,7 @@ font-weight: 500;
 
          .footer {
             background: #2E2F42;
+            padding: 100px 0;
          }
     
          .footer-link {
@@ -441,6 +442,7 @@ font-weight: 500;
 
          .footer-link .foot {
                 color: #F4F4FD;
+                display: inline-block;
          }
     
          .link {}
