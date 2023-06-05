@@ -88,9 +88,10 @@ align-items: center;
     display: flex;
     margin-right: 332px;
     gap: 40px;  
-    padding: 24px 0;
+    }
+.header-menu-item {
+padding: 24px 0;
 }
-
 .header-address {
     display: flex;
         margin-left: auto;
@@ -111,7 +112,6 @@ align-items: center;
 display: flex;
 align-items: center;
 flex-grow: 1;
-padding: 24px 0;
  }
  
 .hecontainer {
