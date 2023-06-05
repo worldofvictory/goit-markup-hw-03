@@ -81,14 +81,14 @@ align-items: center;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--h2-font);
-       
+        padding: 24px 0;     
 }
 
 .header-menu { 
     display: flex;
     margin-right: 332px;
     gap: 40px;  
-    padding: 24px 0;
+   
     }
 .header-menu-item {
 padding: 24px 0;
