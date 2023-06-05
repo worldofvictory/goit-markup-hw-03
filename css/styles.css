@@ -58,8 +58,8 @@ border-bottom: 1px solid #e7e9fc;
 .container { 
     width: 100%;
 max-width: 1158px;
-padding-left: 12px;
-padding-right: 12px;
+padding-left: 15px;
+padding-right: 15px;
 margin: 0 auto;
 outline: 1px solid red;
 align-items: center;
