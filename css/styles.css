@@ -397,6 +397,10 @@ background-color:#F4F4FD;
     width: calc((100% - 48px) / 3);
 }
 
+.items {
+width: calc((100% - 48px) / 3);
+}
+
 .visually-hidden {
 position: absolute;
 width: 1px;
