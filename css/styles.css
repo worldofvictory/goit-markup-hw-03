@@ -163,7 +163,6 @@ color: #404bbf;
     
  .hero-btn {
     display: block;
-    flex-direction: row;
     min-width: 169px;
     font-family: inherit;
     font-weight: 500;
@@ -179,7 +178,7 @@ padding: 16px 32px;
     border-radius: 4px;
     align-items: center;
 
-position: absolute;
+
     min-height: 56px;
     left: 636px;
     top: 428px;
@@ -192,6 +191,7 @@ position: absolute;
 }
  .hero  {
     background-color: var(--h2-font);
+    padding: 188px 0;
   }
 .content-menu {
     display: flex;
