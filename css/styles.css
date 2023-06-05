@@ -230,7 +230,7 @@ padding: 16px 32px;
         text-transform: capitalize;
         color: #2E2F42;
         margin-bottom: 72px;
-        margin: 0 auto;
+        
         }
 
  .doing-menu {
@@ -275,11 +275,17 @@ padding: 16px 32px;
     padding: 32px 16px;
    }
 
-  .tom {}
+  .tom {
+    padding: 32px 16px;
+  }
 
-  .camilla {}
+  .camilla {
+    padding: 32px 16px;
+  }
 
-  .daniel {}
+  .daniel {
+    padding: 32px 16px;
+  }
       
        
  
