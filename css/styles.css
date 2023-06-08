@@ -126,7 +126,8 @@ margin: 0 auto;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--h2-font);
-        padding: 24px 0;     
+        padding: 24px 0; 
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);    
 }
 
 .header-menu { 
@@ -152,8 +153,10 @@ padding: 24px 0;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--color-adress);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
         
-}
+
  .header-navigation {
 display: flex;
 align-items: center;
@@ -192,8 +195,11 @@ color: #404bbf;
  }
 .content-items {
     width: calc((100%-72px)/4);
+   
  }
-
+content-items-icon { 
+   
+}
  .content-title {
         font-weight: 500;
         font-size: 20px;
@@ -260,6 +266,7 @@ padding: 120px 0;
      
   .mark {
     padding: 32px 16px;
+    gap: 24px;
    }
 
  .team-menu {
