@@ -55,9 +55,11 @@ max-width: 1158px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
+
+
 }
  .hero-conteiner {
-     background-color: var(--h2-font);
+     
      margin-left: auto;
      margin-right: auto;
      margin-top: 12px;
@@ -65,6 +67,8 @@ margin: 0 auto;
     width: 100%;
         max-width: 1158px;
         display: block;
+        
+       
         
  }
 
@@ -78,6 +82,7 @@ margin: 0 auto;
      color: var(--first-font);
      max-width: 496px;
      margin: 0 auto;
+   
  }
   .hero-btn {
       display: block;
@@ -98,6 +103,7 @@ margin: 0 auto;
       min-width: 169px;
       margin: 0 auto;
     margin-top: 48px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .hero-btn:hover {
@@ -109,9 +115,19 @@ margin: 0 auto;
   }
 
   .hero {
-      background-color: var(--h2-font);
+  
+background-image: linear-gradient(180deg,
+            rgba(46, 47, 66, 0.7) 0%,
+            rgba(46, 47, 66, 0.7) 100%),
+        url(../images/people-office\ 1.jpg);
+        
+        background-size: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
       padding: 188px 0;
     height: 600px;
+    
   }
 .container-doing { 
     display: flex;
@@ -194,12 +210,19 @@ color: #404bbf;
     gap: 24px;
  }
 .content-items {
-    width: calc((100%-72px)/4);
-   
- }
-content-items-icon { 
-   
+    width: calc((100%-72px)/4);}
+        
+
+.iconpart {
+    background: #F4F4FD;
+        border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+display: flex;
+padding: 24px 100px;
 }
+
+
  .content-title {
         font-weight: 500;
         font-size: 20px;
@@ -252,6 +275,21 @@ padding: 120px 0;
     background-color: #F4F4FD;
     padding: 120px 0;
  }
+ .soc-link {
+    display:flex;
+    align-items: center;
+    gap: 24px;
+ }
+    
+.soc-link span {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
 
  .team-our {
     font-weight: 700;
@@ -263,12 +301,19 @@ padding: 120px 0;
         color: #2E2F42;
         margin-bottom: 72px;  
      }
-     
+   .soc-icon-link {
+    gap: 24px;
+    display: flex;
+   }
+    
   .mark {
     padding: 32px 16px;
     gap: 24px;
+   
    }
-
+.soc-block {
+    display: inline;
+ }
  .team-menu {
     display: flex;
         gap: 24px;
@@ -278,6 +323,7 @@ padding: 120px 0;
  .team-items {
     background-color: var(--first-font);
     border-radius: 0px 0px 4px 4px;
+   
  }
 
  .team-img {
@@ -418,12 +464,46 @@ margin-bottom: 8px;
         padding: 8px 314px 0px 16px ;
         width: 75px;
  }
+.customers {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+      text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--h2-font);
+        margin-bottom: 72px;
+}
 
-         .footer {
-            background: #2E2F42;
-            padding: 100px 0;
-            height: 312px;
-         }
+.customli {
+    display: flex;
+    gap: 24px;
+    
+   
+}
+.custom {
+    padding: 120px 0;
+    
+    
+}
+.custo-items {
+            width: calc((100%-120px)/6);
+            margin: 0 auto;
+            
+        }
+        
+                .custopart {
+                    border-radius: 4px;
+                align-content: center;
+                    justify-content: center;
+                    display: flex;
+                    flex-direction: row;
+                    padding: 16px 32px;
+                    border: 4px lightgrey solid;
+                   
+                    gap: 24px;
+                    
+                }
     
          .footer-link {
             font-family: 'Raleway', sans-serif;
@@ -438,7 +518,8 @@ margin-bottom: 8px;
          }
 
          .footer-link .foot {
-                color: #F4F4FD;       
+                color: #F4F4FD; 
+               
          }
     
          .link {
@@ -466,3 +547,6 @@ margin-bottom: 8px;
                 color: #434455;
 
          }
+ .foot {
+  background: #2E2F42;
+}
